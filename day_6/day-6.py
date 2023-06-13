@@ -55,11 +55,20 @@
 #mwvadi girs 20 lari
 
 
-my_list = ["xinkali", "mwvadi", "lobiani", "qababi", "khachapuri", "wyali"]
+# my_list = ["xinkali", "mwvadi", "lobiani", "qababi", "khachapuri", "wyali"]
+# price = [2, 20, 15, 10, 15, 2]
+
+# i = 0
+
+# for food in my_list:
+#     print(food + " price is: " + str(price[i]))
+#     i += 1
+
+
+my_list = ["xinkali", "mwvadi", "lobiani", "qababi", "khachapuri", "wyali",]
 price = [2, 20, 15, 10, 15, 2]
 
-priece_incremet = 0
-
-for food in my_list:
-    print(food + " price is: " + str(price[priece_incremet]))
-    priece_incremet += 1
+i = 0
+while i < len(my_list):
+    print(my_list[i] + str(price[i]))
+    i += 1
