@@ -172,14 +172,12 @@ print(reverse_menu([1,2,3,4,6,8]))
 
 def reverse_menu(menu):
     new_menu = []
-    n = len(menu)
-    for i in range(n-1,-1,-1):
-        if i < n:
-            n -= 1
-            new_menu.append(menu[n])
-    return new_menu
+    for i in str(menu):
+        new_menu.append(int(i))
 
-print(reverse_menu([1, 2, 3, 4, 6, 8]))
+    return new_menu[::-1]
+
+print(reverse_menu(1235))
 
 
  
