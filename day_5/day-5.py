@@ -2,8 +2,8 @@
 # 2) while loop
 
 # i საიტერაციო ცვლადი 
-# for i in range(4): #range(4) = 1 2 3 4 this range is counting numbers in py
-#     print("nika")
+for i in range(4): #range(4) = 1 2 3 4 this range is counting numbers in py
+    print("nika")
 
 # for i in range(3,6): # საიტერაციო ცვლადი ართმევს range ობიექტს რიცვს და თავის თავში აჯენს
 #     print(str(i) + "davit")

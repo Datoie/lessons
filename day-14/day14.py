@@ -55,4 +55,69 @@ def position(alphabet,letter):
         if letter.lower() == letter:
             x += 1
     return "The position of "+ letter +" in the alphabet: {}".format(x)
-print(position("aaaaab","b"))
+# print(position("aaaaab","b"))
+
+# seats = 2
+# while seats > 0:
+#   print("Sell ticket")
+#   seats = seats - 1
+#   print(seats)
+
+
+def number_to_string(num):
+    # Return a string of the number here!
+    new_stirng = ""
+    return new_stirng + str(num) 
+# print(number_to_string(1))
+
+def find_smallest_int(arr):
+    arr.sort()
+    return arr.sort()
+# print(find_smallest_int([1,2,3]))
+
+def find_smallest_int(arr):
+    # Code here
+    min_int = arr[0]
+    for i in arr:
+        if min_int > i:
+            min_int = i
+    return min_int
+# print(find_smallest_int([1,2,4,16,19]))
+
+def summation(num):
+    return sum(range(num+1))
+# print(summation())       
+
+def century(year):
+    # Finish this :)
+    if year% 100==0:
+        return year//100
+    else:
+        return year//100 +1
+# print(century(2001)) 
+def count_positives_sum_negatives(arr):
+    new_arr=[]
+    p =0
+    for i in arr:
+        if i >0:
+            p+=1
+            new_arr.append(p)
+    return new_arr
+# print(count_positives_sum_negatives([1,4,6,-1,-1,-5]))
+
+def grow(arr):
+    sum =0
+    for i in arr:
+        if i < len(arr):
+            sum *=i
+    return sum 
+# print(grow([5555,5555,5555]))
+
+def cost(d):
+    result = d * 80085
+
+    if d < 5 and d <10:
+        return result - 69000
+    elif d>=10:
+        return result -99000
+print(cost(10))
