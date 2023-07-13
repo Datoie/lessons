@@ -37,9 +37,9 @@
 def ziped(aa,bb,cc):
     ziped = [aa] + [bb] + [cc]
     x = [0,1,2]
-    new_str = ''
+    arr = []
     for i in range(3):
-        new_str+=ziped[x[0]][i]+ziped[x[1]][i]+ziped[x[2]][i]
-    return new_str
+        arr.append(ziped[x[0]][i]+ziped[x[1]][i]+ziped[x[2]][i])
+    return arr
     # return ziped[x][0]+ziped[z][0]+ziped[c][0] +' '+ ziped[x][1]+ziped[z][1]+ziped[c][1] + ' ' + ziped[x][2]+ziped[z][2]+ziped[c][2]
 print(ziped(["A", "B", "C", "D"],["1", "2", "3", "4"], ["goga", "guga", "gaga", "Dadaaaaaa"]))
