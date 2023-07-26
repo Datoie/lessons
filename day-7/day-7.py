@@ -46,13 +46,13 @@
 # print(menu)
 
 # წაშალეთ ის ელემენტი, რომელში მერე ასო არის a
-# menu = ["xinkali", "mwvadi", "lobiani", "qababi", "khachapuri", "wyali",]
+menu = ["xinkali", "mwvadi", "lobiani", "qababi", "khachapuri", "wyali",]
 
-# new_menu = []
-# for food in menu:
-#     if food[1] != "a":
-#         new_menu.append(food)
-# print(new_menu)
+new_menu = []
+for food in menu:
+    if food[1] != "a":
+        new_menu.append(food)
+print(new_menu)
 
 #remove and loop togeder never do that if u want remove object create new list and in youre loop section write that object if u dont want to be in ure liste and maek new list that contain evertihng exept taht item thats all
 #do not muatate origran list
@@ -64,7 +64,7 @@
 
 
 #1) დაასორტირეთ  scores = [20, 43, 56, 73, 10, 6, 87, 45 ,97]
-#sort() მეთოდის გარეშე და maxa  ფუნქციის გარეშე დამიბრუნეთ ყვლეაზე დიდი რიცხვი
+#sort() მეთოდის გარეშე და max  ფუნქციის გარეშე დამიბრუნეთ ყვლეაზე დიდი რიცხვი
 
 #while ციკლით სათიტადო შეამოწმეთ ელემენტი და მის მარჯვნივ მდგომ, რომელიც უფორ დიდი იქნება,
 #დროიებით მიანიჭეთ მაქსიმუმ მნიშვნელობა და შემდეგ შეადარეთ მის მარჯვნივ მდგომს
