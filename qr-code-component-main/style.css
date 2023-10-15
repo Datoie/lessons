@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+/* containers */
+body{
+    background-color: #c5dfe0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+main{
+    background-color: white;
+    padding: .6rem;
+    border-radius: 10px;
+}
+/* imgs */
+.img{
+    background-image: url('/images/image-qr-code.png');
+    background-repeat: no-repeat;
+    background-size:contain;
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+}
+/* typography */
+h1, p{
+    font-family: sans-serif;
+}
+h1{
+    font-size: 1rem;
+    max-width: 200px;
+    margin: 1rem 0;
+}
+p{
+    font-size: .5rem;
+    max-width: 200px;
+    color: rgb(131, 131, 131);
+    margin-bottom: .5rem;
+}

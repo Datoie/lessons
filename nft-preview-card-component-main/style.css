@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    font-family: 'Outfit', sans-serif;
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+    text-decoration: none;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+}
+.cotianer-mian{
+    display: flex;
+    flex-direction: column;
+    background-color:hsl(216, 50%, 16%);
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem .8rem hsl(216, 82%, 9%);
+}
+.bg-img{
+    background-image: url('images/icon-view.svg'),url('images/image-equilibrium.jpg');
+    background-color: hsl(178, 100%, 50%),0;
+    background-size: 0,100%;
+    background-repeat: no-repeat;
+    background-position: center,center;
+    cursor: pointer;
+    border-radius: .525rem;
+    width: 100%;
+    height: 250px;
+}
+.bg-img:hover{
+    opacity: .5;
+    background-size: 3rem,100%;
+} 
+.visible-icon:hover{
+    background-image: url('images/icon-view.svg');
+    background-repeat: no-repeat;
+    background-size: 3rem;
+    background-position: center;
+    background-color: aqua;
+    border-radius: .525rem;
+}
+/* sizes */
+article h3{
+    margin: .8rem 0;
+}
+article h3:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+/* typograhy */
+article h3{
+    color: hsl(0, 0%, 100%);
+}
+article p {
+    font-weight: 300;
+    font-size: .8rem;
+    max-width: 15rem;
+    margin-bottom: .8rem;
+}
+/* eth contianer */
+.eth-container h4{
+    font-size: .8rem;
+
+}
+.eth-img-contianer h4{
+    color: hsl(178, 100%, 50%);
+    /* margin-bottom: .8rem; */
+}
+/* bottom layer cotainer */
+.bottom-layer-contianer h4, span{
+    font-size: .7rem;
+}
+.bottom-layer-contianer span{
+    color: hsl(0, 0%, 100%);
+}
+.bottom-layer-contianer div{
+    padding: .8rem 0;
+}
+/* tyhograhy end */
+/* eth-container */
+.eth-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 .8rem 0;
+}
+.eth-img-contianer{
+    display: flex;
+    align-items: center;
+}
+.eth-img-contianer h4{
+    margin-left: 10px;
+}
+.clock-contianer{
+    display: flex;
+    justify-content: space-between;
+}
+.clock-contianer h4{
+    margin-left: 10px;
+}
+.bottom-layer-contianer a {
+    font-size: .7rem;
+    color: hsl(0, 0%, 100%);
+}
+/* bottom contianer */
+.bottom-layer-contianer{
+    border-top: 1px solid hsl(215, 32%, 27%);
+}
+.bottom-layer-contianer div{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.bottom-layer-contianer img{
+    width: 32px;
+    border:2px solid hsl(0, 0%, 100%);
+    border-radius: 50px;
+    margin-right: 10px;
+}
+/* hovver */
+.main-avatar:hover{
+    background-color: aqua;
+}

@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+}
+div{
+    width: 30%;
+    height: 50vh;
+    background-color: blue;
+    padding-left: 200px 100px 100px 100px;
+}

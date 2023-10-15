@@ -1,0 +1,12 @@
+div{
+    width:500px;
+    height: 500px;
+    background-color:red;
+    border-radius:50%;
+    border-left: 50px solid purple;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+}
+.cir{
+    border-radius: 40% 0 40% 0;
+}

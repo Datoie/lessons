@@ -28,10 +28,9 @@
 
 
 
-arr=[1,2,3,4,5,7,8]
-i=0
-while i< len(arr)-1:
-    if arr[i+1]-arr[i]!=1:
-        print(arr[i]+1)
-    i+=1 #
-    
+# arr=[1,2,3,4,5,7,8]
+# i=0
+# while i< len(arr)-1:
+#     if arr[i+1]-arr[i]!=1:
+#         print(arr[i]+1)
+#     i+=1 #
