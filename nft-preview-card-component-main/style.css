@@ -6,7 +6,7 @@
     list-style-type: none;
     font-family: 'Outfit', sans-serif;
     color: hsl(215, 51%, 70%);
-    font-size: 18px;
+    font-size: 15px;
     text-decoration: none;
 }
 
@@ -28,17 +28,17 @@ main{
 .bg-img{
     background-image: url('images/icon-view.svg'),url('images/image-equilibrium.jpg');
     background-color: hsl(178, 100%, 50%),0;
-    background-size: 0,100%;
+    background-size: 0,cover;
     background-repeat: no-repeat;
     background-position: center,center;
     cursor: pointer;
     border-radius: .525rem;
-    width: 100%;
+    width: 100%,200px;
     height: 250px;
 }
 .bg-img:hover{
     opacity: .5;
-    background-size: 3rem,100%;
+    background-size: 3rem,cover;
 } 
 .visible-icon:hover{
     background-image: url('images/icon-view.svg');
@@ -59,31 +59,32 @@ article h3:hover{
 /* typograhy */
 article h3{
     color: hsl(0, 0%, 100%);
+    font-weight: 600;
 }
 article p {
-    font-weight: 300;
-    font-size: .8rem;
+    font-size: 15px;
     max-width: 15rem;
-    margin-bottom: .8rem;
+    margin-bottom: 0.625rem;
+    font-weight: 300;
 }
 /* eth contianer */
 .eth-container h4{
-    font-size: .8rem;
-
+    font-size: 15px;
+    font-weight: 400;
 }
 .eth-img-contianer h4{
     color: hsl(178, 100%, 50%);
-    /* margin-bottom: .8rem; */
 }
 /* bottom layer cotainer */
 .bottom-layer-contianer h4, span{
-    font-size: .7rem;
+    font-size: 15px;
+    font-weight: 300;
 }
 .bottom-layer-contianer span{
     color: hsl(0, 0%, 100%);
 }
 .bottom-layer-contianer div{
-    padding: .8rem 0;
+    padding: .625rem 0;
 }
 /* tyhograhy end */
 /* eth-container */
@@ -97,18 +98,21 @@ article p {
     align-items: center;
 }
 .eth-img-contianer h4{
-    margin-left: 10px;
+    margin-left: 5px;
 }
 .clock-contianer{
     display: flex;
     justify-content: space-between;
 }
 .clock-contianer h4{
-    margin-left: 10px;
+    margin-left: 5px;
 }
 .bottom-layer-contianer a {
-    font-size: .7rem;
+    font-size: 15px;
     color: hsl(0, 0%, 100%);
+}
+.bottom-layer-contianer a:hover {
+    color: hsl(178, 100%, 50%);
 }
 /* bottom contianer */
 .bottom-layer-contianer{
@@ -117,7 +121,7 @@ article p {
 .bottom-layer-contianer div{
     display: flex;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 4px;
 }
 .bottom-layer-contianer img{
     width: 32px;
@@ -127,5 +131,8 @@ article p {
 }
 /* hovver */
 .main-avatar:hover{
-    background-color: aqua;
+    background-color: hsl(178, 100%, 50%);
+}
+.avatar-h4:hover{
+    colo
 }
