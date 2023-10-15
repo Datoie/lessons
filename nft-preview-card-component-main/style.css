@@ -25,27 +25,28 @@ main{
     border-radius: 1rem;
     box-shadow: 0 0 1rem .8rem hsl(216, 82%, 9%);
 }
-.bg-img{
-    background-image: url('images/icon-view.svg'),url('images/image-equilibrium.jpg');
-    background-color: hsl(178, 100%, 50%),0;
-    background-size: 0,cover;
+.visible-icon{
+    background-image:url('images/icon-view.svg');
+    background-color: hsl(178, 100%, 50%);
+    background-size: 3rem;
     background-repeat: no-repeat;
-    background-position: center,center;
+    background-position: center;
+    overflow: hidden;
     cursor: pointer;
     border-radius: .525rem;
-    width: 100%,200px;
+    width: 100%;
     height: 250px;
+    opacity: 0;
 }
-.bg-img:hover{
-    opacity: .5;
-    background-size: 3rem,cover;
-} 
 .visible-icon:hover{
-    background-image: url('images/icon-view.svg');
+    opacity: 1;
+    background-color: hsl(178, 100%, 50%, .3);
+} 
+.bg-img{
+    background-image: url('images/image-equilibrium.jpg');
     background-repeat: no-repeat;
-    background-size: 3rem;
+    background-size: cover;
     background-position: center;
-    background-color: aqua;
     border-radius: .525rem;
 }
 /* sizes */
@@ -55,7 +56,6 @@ article h3{
 article h3:hover{
     color: hsl(178, 100%, 50%);
 }
-
 /* typograhy */
 article h3{
     color: hsl(0, 0%, 100%);
