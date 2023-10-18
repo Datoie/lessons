@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style:0;
+    color:hsla(0, 0%, 100%, 0.85);
+}
+
+/* mian, body */
+body{
+    background-color: hsl(233, 47%, 7%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    display: flex;
+}
+main{
+    background-color: hsl(244, 38%, 16%);
+    padding: 3em;
+    padding-right: 5em;
+    text-align: left;
+    border-radius:.636em 0 0 .636em;
+}
+section{
+    margin-bottom: 4em;
+    font-family: 'Inter';
+}
+/* typography */
+/* section START */
+h1{
+    font-size: 2rem;
+    max-width: 12em;
+    margin-bottom: .5em;
+    color: hsla(0, 0%, 100%, 0.85);
+    line-height: 1.2em;
+    font-weight: 700;
+}
+p{
+    max-width: 20em;
+    color: hsl(245, 7%, 64%);
+    line-height: 1.6em;
+    font-weight: 400;
+    font-size: .9em;
+}
+span{
+    color: hsl(277, 64%, 61%);
+}
+/* section end */
+
+/* footer start */
+footer{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Lexend Deca', sans-serif;
+}
+h2{
+    font-size: 1.4em;
+    margin-bottom: 0.3em;
+}
+h4{
+    line-height: 1.6em;
+    font-weight: 400;
+    font-size: .7em;
+    color: hsl(245, 7%, 64%);
+}
+/*  */
+aside{
+    position: relative;
+}
+.bg-img{
+    position: relative;
+    width: 34em;
+    height: 100%;
+    background-size: cover;
+    background-image: url('/stats-preview-card-component-main/images/image-header-desktop.jpg');
+    background-repeat: no-repeat;
+    border-radius: 0  .625em .625em 0;
+    z-index: 1;
+    opacity: .8;
+}
+.cover{
+    position: absolute;
+    width: 34em;
+    height: 100%;
+    background-color:hsl(277deg 90.48% 24.14% / 50%);
+    border-radius: 0  .625em .625em 0;
+    z-index: 2;
+}
+@media (max-width:900px) {
+    section{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .container{
+        flex-direction:column-reverse;
+    }
+    aside{
+        height: 400px;
+    }
+    .bg-img{
+        position: absolute;
+        width: 32em;
+        border-radius: .625em .625em 0 0;
+    }
+    .cover{
+        width: 32em;
+        border-radius: .625em .625em 0 0;
+    }
+    footer{
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .col{
+        margin-top: 1.5em;
+    }
+}
